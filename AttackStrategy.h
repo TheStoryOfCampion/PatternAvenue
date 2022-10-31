@@ -1,14 +1,12 @@
 #ifndef ATTACKSTRATEGY_H
 #define ATTACKSTRATEGY_H
 
-#include "Strategy.cpp"
-
-class AttackStrategy:public Strategy
+class AttackStrategy
 {
     public:
         //AttackStrategy();
         ~AttackStrategy();
-        virtual void Execute() = 0;
+        virtual void attack() = 0;
 
 
 };

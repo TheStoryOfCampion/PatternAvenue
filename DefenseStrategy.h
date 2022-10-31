@@ -1,14 +1,12 @@
 #ifndef DEFENSESTRATEGY_H
 #define DEFENSESTRATEGY_H
 
-#include "Strategy.cpp"
-
-class DefenseStrategy:public Strategy
+class DefenseStrategy
 {
     public:
         //DefenseStrategy();
         ~DefenseStrategy();
-        virtual void Execute() = 0;
+        virtual void defend() = 0;
 
 
 };
