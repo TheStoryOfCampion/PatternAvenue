@@ -6,7 +6,7 @@ class DefenseStrategy
     public:
         //DefenseStrategy();
         ~DefenseStrategy();
-        virtual void defend() = 0;
+        virtual void defend() = 0; 
 
 
 };

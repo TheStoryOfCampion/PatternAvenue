@@ -3,4 +3,4 @@
 
 using namespace std;
 
-DefenseStrategy::~DefenseStrategy(){}
+DefenseStrategy::~DefenseStrategy(){} 

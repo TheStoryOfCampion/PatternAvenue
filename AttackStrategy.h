@@ -6,7 +6,7 @@ class AttackStrategy
     public:
         //AttackStrategy();
         ~AttackStrategy();
-        virtual void attack() = 0;
+        virtual void attack() = 0; 
 
 
 };
