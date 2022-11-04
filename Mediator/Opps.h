@@ -1,6 +1,7 @@
 #ifndef OPPS_H
 #define OPPS_H
 #include <iostream>
+#include <string>
 #include "Messenger.h"
 
 using namespace std;
@@ -13,23 +14,30 @@ using namespace std;
  */
 
 class Opps{
-private:
+protected:
     Messenger *messenger;
+    int id;
 public:
+    Opps();
+    ~Opps();
     void changed();
-    void get();
-    void set();
+    void OpenTransmission(Messenger*);
+    void CloseTransmission();
+    virtual void get(string) = 0;
+    virtual void set() = 0;
 };
 
 class Opp1 : public Opps{
 public:
-    void get();
+    Opp1();
+    void get(string);
     void set();
 };
 
 class Opp2 : public Opps{
 public:
-    void get();
+    Opp2();
+    void get(string);
     void set();
 };
 
