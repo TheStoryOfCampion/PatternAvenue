@@ -14,12 +14,10 @@ using namespace std;
  */
 
 class Country : public Messenger{
-private:
-    Opps* oppsList;
 protected:
     string name;
 public:
-    void notify(Opps* opp);
+    Country(string);
 
 };
 

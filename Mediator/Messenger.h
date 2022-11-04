@@ -24,7 +24,6 @@ class Messenger{
 public:
     Messenger();
     ~Messenger();
-    void notify(Opps* opp);
     void broadcast(string);
     bool SendTo(int, string);
     int StartTransmission(Opps*);
