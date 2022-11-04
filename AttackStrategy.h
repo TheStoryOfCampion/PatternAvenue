@@ -5,7 +5,7 @@ class AttackStrategy
 {
     public:
         //AttackStrategy();
-        ~AttackStrategy();
+        //~AttackStrategy();
         virtual void attack() = 0; 
 
 

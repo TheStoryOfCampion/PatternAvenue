@@ -5,7 +5,7 @@ class DefenseStrategy
 {
     public:
         //DefenseStrategy();
-        ~DefenseStrategy();
+        //~DefenseStrategy();
         virtual void defend() = 0; 
 
 
