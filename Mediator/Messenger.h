@@ -14,6 +14,12 @@ using namespace std;
  * 
  */
 
+class Sender{
+public:
+    int id;
+    Opps* Opp;
+};
+
 class Messenger{
 public:
     Messenger();
@@ -21,9 +27,11 @@ public:
     void notify(Opps* opp);
     void broadcast(string);
     bool SendTo(int, string);
+    int StartTransmission(Opps*);
     void killTransmisstion(int);
 protected:
-    
+    vector<Sender*> sender;
+    int nextId; 
 };
 
 #endif ///=======================================Messenger.h==========================

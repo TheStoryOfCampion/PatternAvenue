@@ -19,7 +19,7 @@ protected:
     int id;
 public:
     Opps();
-    ~Opps();
+    virtual ~Opps();
     void changed();
     void OpenTransmission(Messenger*);
     void CloseTransmission();
