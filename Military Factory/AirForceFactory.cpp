@@ -2,5 +2,5 @@
 
 Military* AirForceFactory::EnlistSoldiers()
 {
-	//return airforce object
+	return new AirForce();
 }

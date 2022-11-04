@@ -2,5 +2,5 @@
 
 Military* ArmyFactory::EnlistSoldiers()
 {
-	//return army object
+	return new Army();
 }
