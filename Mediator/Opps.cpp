@@ -47,7 +47,7 @@ void Opp1::set(){
 }
 
 Opp2::Opp2() : Opps(){
-    cout << "Opp2 created==========================" << end;
+    cout << "Opp2 created==========================" << endl;
 }
 
 void Opp2::get(string mess){
