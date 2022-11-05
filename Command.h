@@ -1,8 +1,8 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
-//#include "AttackStrategy.h"
-//#include "defenseStrategy.h"
+#include "AttackStrategy.h"
+#include "defenseStrategy.h"
 #include "Military.h"
 
 
