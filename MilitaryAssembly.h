@@ -1,6 +1,7 @@
 #ifndef MILITARYASSEMBLY_H
 #define MILITARYASSEMBLY_H
 #include <iostream>
+#include <vector>
 #include "Military.h"
 #include "Iterator.h"
 #include "MilitaryAssembly.cpp"
@@ -16,7 +17,7 @@ template <typename T>
 class MilitaryAssembly{
     friend class Iterator<T>;
 private:
-    Military<T> *head;
+    Military<T>* head;
 public:
     MilitaryAssembly();
     void enqueue(T e);
@@ -25,5 +26,4 @@ public:
     Iterator<T> begin();
     Iterator<T> end();
 };
-
 #endif ///===========================MilitaryAssembly.h===============================

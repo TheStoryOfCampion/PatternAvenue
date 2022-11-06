@@ -1,3 +1,8 @@
+#ifndef _MILITARYASSEMBLY_C
+#define _MILITARYASSEMBLY_C
+
+#include <string>
+#include <queue>
 #include "Military.h"
 #include "MilitaryAssembly.h"
 #include "Iterator.h"
@@ -56,3 +61,5 @@ template <typename T>
 Iterator<T> MilitaryAssembly<T>::end(){
     return Iterator<T>(*this, head->prev);
 }
+
+#endif

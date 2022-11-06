@@ -25,6 +25,6 @@ Iterator<T> Iterator<T>::operator++(){
 }
 
 template <typename T>
-bool Iterator<T>::operator==(const Iterator<T>& rhs) const{
+bool Iterator<T>::operator==(const MilitaryAssembly<T>& rhs) const{
     return this == rhs.curr;
 }

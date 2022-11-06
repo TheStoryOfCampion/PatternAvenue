@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 #include "Iterator.h"
 #include "Military.h"
 #include "MilitaryAssembly.h"
@@ -6,14 +8,14 @@
 using namespace std;
 
 int main(){
-    MilitaryAssembly<string>* myAssembly = new MilitaryAssembly<string>();
+    MilitaryAssembly<int>* myAssembly = new MilitaryAssembly<int>();
 
-    myAssembly->enqueue("Army");
-    myAssembly->enqueue("Army");
-    myAssembly->enqueue("Navy");
-    myAssembly->enqueue("Navy");
-    myAssembly->enqueue("AirForce");
-    myAssembly->enqueue("AirForce");
+    myAssembly->enqueue(0);
+    myAssembly->enqueue(0);
+    myAssembly->enqueue(1);
+    myAssembly->enqueue(1);
+    myAssembly->enqueue(2);
+    myAssembly->enqueue(2);
 
     while (!myAssembly->isEmpty())
     {
@@ -21,23 +23,21 @@ int main(){
     }
     cout << endl;
 
-    myAssembly->enqueue("Army");
-    myAssembly->enqueue("Army");
-    myAssembly->enqueue("Navy");
-    myAssembly->enqueue("Navy");
-    myAssembly->enqueue("AirForce");
-    myAssembly->enqueue("AirForce");
+    myAssembly->enqueue(0);
+    myAssembly->enqueue(0);
+    myAssembly->enqueue(1);
+    myAssembly->enqueue(1);
+    myAssembly->enqueue(2);
+    myAssembly->enqueue(2);
 
     myAssembly->dequeue();
-    myAssembly->enqueue("ye");
+    myAssembly->enqueue(3);
 
-    Iterator<string> i;
-    for(i = myAssembly->begin(); !(i == myAssembly->end()); ++i){
+    Iterator<int> i;
+    for(i = myAssembly->begin(); !(std::equal(i, myAssembly->end())); ++i){
         cout << *i << "\t";
     }
     cout << *i << endl;
-
     
-
     return 0;
 }

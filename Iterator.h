@@ -1,6 +1,7 @@
 #ifndef ITERATOR_H
 #define ITERATOR_H
 #include <iostream>
+#include <algorithm>
 #include "Military.h"
 #include "MilitaryAssembly.h"
 #include "Iterator.cpp"
@@ -27,7 +28,7 @@ class Iterator{
 protected:
     Military<T> *head;
     Military<T> *curr;
-    Iterator(const MilitaryAssembly<T>&, Iterator<T>*);
+    Iterator(const MilitaryAssembly<T>&, Military<T>*);
 public:
     Iterator();
     T& operator*();
