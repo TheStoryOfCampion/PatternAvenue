@@ -1,4 +1,5 @@
 #include "CivilianContext.h"
+#include <vector>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -28,7 +29,7 @@ void CivilianContext::setState(CivilianState* state_) {
 void CivilianContext::change() {
     state->handleChange(this);
 }
-
+  
 /*string CivilianContext::getState() {
     return state->getState();
 }*/
