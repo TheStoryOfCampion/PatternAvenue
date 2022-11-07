@@ -54,12 +54,14 @@ bool MilitaryAssembly<T>::isEmpty(){
 
 template <typename T>
 Iterator<T> MilitaryAssembly<T>::begin(){
-    return Iterator<T>(*this, head);
+    Iterator<T> it = new Iterator<T>(*this, head);
+    return it;
 }
 
 template <typename T>
 Iterator<T> MilitaryAssembly<T>::end(){
-    return Iterator<T>(*this, head->prev);
+    Iterator<T> it = new Iterator<T>(*this, head->prev);
+    return it;
 }
 
 #endif
