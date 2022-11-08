@@ -1,6 +1,7 @@
 # PatternAvenue
 
 How to run the program:
+0. clone the repo and locate the repo on your local machine
 1. Open the location of the cpp and h files
 2. open terminal in said location
 3. run the command "make"
