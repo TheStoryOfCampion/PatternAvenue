@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/AirForceUniform.h
+Uniform.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Uniform.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/ArmyUniform.h
+Uniform.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Uniform.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Military.h
+string
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/NavyUniform.h
+Uniform.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Uniform.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Testom.cpp
+ArmyUniform.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/ArmyUniform.h
+AirForceUniform.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/AirForceUniform.h
+NavyUniform.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/NavyUniform.h
+string
+-
+gtest/gtest.h
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Uniform.h
+Military.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Military.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/main.cpp
+Testom.cpp
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/testomDecorator/Testom.cpp
+gtest/gtest.h
+-
+

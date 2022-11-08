@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/runTests.dir/main.cpp.o CMakeFiles/runTests.dir/Testom.cpp.o CMakeFiles/runTests.dir/ArmyUniform.cpp.o CMakeFiles/runTests.dir/NavyUniform.cpp.o CMakeFiles/runTests.dir/AirForceUniform.cpp.o CMakeFiles/runTests.dir/Uniform.cpp.o  -o runTests  -lgtest -lpthread 
