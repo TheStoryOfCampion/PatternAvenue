@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/User/Desktop/PatternAvenue/Factory Tests"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a"
+CMAKE_BINARY_DIR = "/mnt/c/Users/User/Desktop/PatternAvenue/Factory Tests"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/CMakeFiles" "/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/User/Desktop/PatternAvenue/Factory Tests/CMakeFiles" "/mnt/c/Users/User/Desktop/PatternAvenue/Factory Tests/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/User/Desktop/PatternAvenue/Factory Tests/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

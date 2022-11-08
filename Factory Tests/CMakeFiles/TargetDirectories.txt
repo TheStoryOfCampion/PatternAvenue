@@ -1,3 +1,0 @@
-/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/CMakeFiles/edit_cache.dir
-/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/CMakeFiles/runTests.dir
