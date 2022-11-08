@@ -1,0 +1,108 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianContext.h
+CivilianState.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianState.h
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianState.h
+CivilianContext.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianContext.h
+iostream
+-
+string
+-
+vector
+-
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Enlisted.h
+CivilianState.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianState.h
+iostream
+-
+string
+-
+vector
+-
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Fleeing.h
+string
+-
+CivilianState.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianState.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Refugee.h
+CivilianState.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianState.h
+CivilianContext.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianContext.h
+Enlisted.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Enlisted.h
+Reserve.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Reserve.h
+Fleeing.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Fleeing.h
+iostream
+-
+string
+-
+vector
+-
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Reserve.h
+CivilianState.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianState.h
+CivilianContext.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/CivilianContext.h
+Enlisted.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Enlisted.h
+Refugee.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Refugee.h
+Fleeing.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Fleeing.h
+iostream
+-
+string
+-
+vector
+-
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/State_unittest.cpp
+gtest/gtest.h
+-
+iostream
+-
+string
+-
+vector
+-
+Enlisted.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Enlisted.h
+Fleeing.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Fleeing.h
+Reserve.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Reserve.h
+Refugee.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/Refugee.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/main.cpp
+State_unittest.cpp
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/state/State_unittest.cpp
+gtest/gtest.h
+-
+
