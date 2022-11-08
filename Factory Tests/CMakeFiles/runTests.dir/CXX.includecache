@@ -1,0 +1,96 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForce.h
+Military.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Military.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForceFactory.h
+MilitaryFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory.h
+AirForce.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForce.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Army.h
+Military.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Military.h
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/ArmyFactory.h
+MilitaryFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory.h
+Army.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Army.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Military.h
+string
+-
+iostream
+-
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory.h
+Military.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Military.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory_unittest.cpp
+gtest/gtest.h
+-
+limits.h
+-
+stdexcept
+-
+Military.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Military.h
+Army.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Army.h
+Navy.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Navy.h
+AirForce.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForce.h
+MilitaryFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory.h
+ArmyFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/ArmyFactory.h
+NavyFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/NavyFactory.h
+AirForceFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForceFactory.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Navy.h
+Military.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Military.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/NavyFactory.h
+MilitaryFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory.h
+Navy.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Navy.h
+
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/main.cpp
+MilitaryFactory_unittest.cpp
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory_unittest.cpp
+gtest/gtest.h
+-
+Army.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Army.h
+Navy.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/Navy.h
+AirForce.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForce.h
+MilitaryFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/MilitaryFactory.h
+ArmyFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/ArmyFactory.h
+NavyFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/NavyFactory.h
+AirForceFactory.h
+/mnt/c/Users/User/Documents/2022/SEMESTER 2/COS 214/PRACTICALS/PROJECT + P5/Unit Tests/a/AirForceFactory.h
+iostream
+-
+
