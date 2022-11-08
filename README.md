@@ -1,6 +1,8 @@
 # PatternAvenue
 
 How to run the program:
+
+
 0. clone the repo and locate the repo on your local machine
 1. Open the location of the cpp and h files
 2. open terminal in said location
@@ -10,6 +12,8 @@ How to run the program:
 
 
 How to run the Tests:
+
+
 0. Head to the branch "Amanda" and clone that, then locate it on your local machine.
 1. open the locations with the tests.
 2. open the terminal
