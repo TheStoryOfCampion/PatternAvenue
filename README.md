@@ -10,6 +10,7 @@ How to run the program:
 
 
 How to run the Tests:
+0. Head to the branch "Amanda" and clone that, then locate it on your local machine.
 1. open the locations with the tests.
 2. open the terminal
 3. run the command "cmake CMakeList.txt"
